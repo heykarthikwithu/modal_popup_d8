@@ -1,0 +1,11 @@
+
+custom.default_form:
+  path: '/admin/config/custom/default'
+  defaults:
+    _form: '\Drupal\custom\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
